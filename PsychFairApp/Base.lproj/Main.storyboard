@@ -44,6 +44,9 @@
                     <navigationItem key="navigationItem" id="E0R-4z-cwZ">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="o4O-nt-Soa"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="owl-9u-WVW" id="v6c-4L-SEi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,6 +89,9 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" red="0.60866457104938954" green="1" blue="0.50823224870621631" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitButton:" destination="86D-b0-WMP" eventType="touchUpInside" id="xZ4-ph-zc7"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ev0-yx-rcT">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -100,14 +106,14 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv3-yx-eGD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv3-yx-eGD">
                                 <rect key="frame" x="138" y="370" width="99" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpa-cm-Cg8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpa-cm-Cg8">
                                 <rect key="frame" x="138" y="303" width="99" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -118,6 +124,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1dw-Yw-cBF"/>
                     </view>
+                    <connections>
+                        <outlet property="Label1" destination="kpa-cm-Cg8" id="vaQ-qV-4C7"/>
+                        <outlet property="Label2" destination="kv3-yx-eGD" id="7kM-vO-oG9"/>
+                        <outlet property="TextField1" destination="Fxq-aQ-D0f" id="Qov-sY-cxV"/>
+                        <outlet property="TextField2" destination="iav-Ig-Xrj" id="YYG-P7-0UB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qBI-UX-Dvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
