@@ -9,18 +9,23 @@
 import UIKit
 
 class ViewController2: UIViewController {
-    @IBOutlet weak var Label1: UILabel!
-    @IBOutlet weak var TextField1: UITextField!
-    @IBOutlet weak var Label2: UILabel!
-    @IBOutlet weak var TextField2: UITextField!
+    
+    @IBOutlet weak var questionLabel1: UILabel!
+    @IBOutlet weak var answerTextField1: UITextField!
+    @IBOutlet weak var questionLabel2: UILabel!
+    @IBOutlet weak var answerTextField2: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
     }
-    @IBAction func submitButton(_ sender: UIButton)
-    {
-        
+    
+    @IBAction func submitButton(_ sender: UIButton) {
+        //answers go to Firebase
+        let answer1 = answerTextField1.text
+        let answer2 = answerTextField2.text
     }
     
 

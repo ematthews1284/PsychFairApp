@@ -125,10 +125,10 @@
                         <viewLayoutGuide key="safeArea" id="1dw-Yw-cBF"/>
                     </view>
                     <connections>
-                        <outlet property="Label1" destination="kpa-cm-Cg8" id="vaQ-qV-4C7"/>
-                        <outlet property="Label2" destination="kv3-yx-eGD" id="7kM-vO-oG9"/>
-                        <outlet property="TextField1" destination="Fxq-aQ-D0f" id="Qov-sY-cxV"/>
-                        <outlet property="TextField2" destination="iav-Ig-Xrj" id="YYG-P7-0UB"/>
+                        <outlet property="answerTextField1" destination="Fxq-aQ-D0f" id="MHz-bJ-e0f"/>
+                        <outlet property="answerTextField2" destination="iav-Ig-Xrj" id="rTD-rI-g3t"/>
+                        <outlet property="questionLabel1" destination="kpa-cm-Cg8" id="ASz-qy-veZ"/>
+                        <outlet property="questionLabel2" destination="kv3-yx-eGD" id="xrG-ko-YZi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qBI-UX-Dvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
