@@ -26,6 +26,10 @@ class ViewController2: UIViewController {
         //answers go to Firebase
         let answer1 = answerTextField1.text
         let answer2 = answerTextField2.text
+        let alert = UIAlertController(title: "Submit?", message: "Please enter the given code below", preferredStyle: .alert)
+        present(alert, animated: true, completion: nil)
+        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
     }
     
 
