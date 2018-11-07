@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CE18087E5FC397F640C2839 /* libPods-PsychFairApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A29F22CD29D6850842087F /* libPods-PsychFairApp.a */; };
 		6E07E06C218B57ED00F4A23B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E07E06B218B57EC00F4A23B /* SwiftyJSON.swift */; };
 		6E33CF6C2187617A00563751 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E33CF6B2187617A00563751 /* ViewController2.swift */; };
 		6E4F1A622187592F009E3338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F1A612187592F009E3338 /* AppDelegate.swift */; };
@@ -14,10 +15,10 @@
 		6E4F1A672187592F009E3338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F1A652187592F009E3338 /* Main.storyboard */; };
 		6E4F1A6921875930009E3338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F1A6821875930009E3338 /* Assets.xcassets */; };
 		6E4F1A6C21875930009E3338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F1A6A21875930009E3338 /* LaunchScreen.storyboard */; };
-		E34E64806ECA4E770EB92138 /* Pods_PsychFairApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE64D218DBE0136D7A9D3F3D /* Pods_PsychFairApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A29F22CD29D6850842087F /* libPods-PsychFairApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PsychFairApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E07E06B218B57EC00F4A23B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		6E33CF6B2187617A00563751 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		6E4F1A5E2187592F009E3338 /* PsychFairApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsychFairApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,7 +30,6 @@
 		6E4F1A6D21875930009E3338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F6F29B1069A1BF5E9226314 /* Pods-PsychFairApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsychFairApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PsychFairApp/Pods-PsychFairApp.release.xcconfig"; sourceTree = "<group>"; };
 		B6047F7BE4E4F3B984909E25 /* Pods-PsychFairApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsychFairApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PsychFairApp/Pods-PsychFairApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DE64D218DBE0136D7A9D3F3D /* Pods_PsychFairApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PsychFairApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34E64806ECA4E770EB92138 /* Pods_PsychFairApp.framework in Frameworks */,
+				5CE18087E5FC397F640C2839 /* libPods-PsychFairApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		34C89603D9514D51E3F35AF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE64D218DBE0136D7A9D3F3D /* Pods_PsychFairApp.framework */,
+				04A29F22CD29D6850842087F /* libPods-PsychFairApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
