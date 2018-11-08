@@ -1,11 +1,3 @@
-//
-//  ViewController2.swift
-//  PsychFairApp
-//
-//  Created by period3 on 10/29/18.
-//  Copyright © 2018 period3. All rights reserved.
-//
-
 import UIKit
 
 class ViewController2: UIViewController {
@@ -26,11 +18,18 @@ class ViewController2: UIViewController {
         //answers go to Firebase
         let answer1 = answerTextField1.text
         let answer2 = answerTextField2.text
-        let alert = UIAlertController(title: "Submit?", message: "Please enter the given code below", preferredStyle: .alert)
-        present(alert, animated: true, completion: nil)
-        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert()
     }
     
-
+    func alert()
+    {
+        let alert = UIAlertController(title: "Submit?", message: "Please enter the given code below", preferredStyle: .alert)
+        let okayAction = UIAlertAction(title: "Yes", style: .default, handler: nil)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alert.addAction(okayAction)
+        alert.addAction(cancelAction)
+        present(alert, animated: true, completion: nil)
+        
+    }
+    
 }
