@@ -23,7 +23,7 @@ class ViewController2: UIViewController {
     
     func alert()
     {
-        let alert = UIAlertController(title: "Submit?", message: "Please enter the given code below", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Submit?", message: "You cannot go back after you submit.", preferredStyle: .alert)
         let okayAction = UIAlertAction(title: "Yes", style: .default, handler: nil)
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         alert.addAction(okayAction)
