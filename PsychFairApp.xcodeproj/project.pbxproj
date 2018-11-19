@@ -7,26 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		3F91DCDA79CA03B74E59EC47 /* Pods_PsychFairApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D6CE075BA0EC8D5EB19971 /* Pods_PsychFairApp.framework */; };
-=======
->>>>>>> parent of 963c809... Merge remote-tracking branch 'origin/master'
 		6E07E06C218B57ED00F4A23B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E07E06B218B57EC00F4A23B /* SwiftyJSON.swift */; };
+		6E277AA321949D4B005E813E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E277AA221949D4A005E813E /* GoogleService-Info.plist */; };
 		6E33CF6C2187617A00563751 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E33CF6B2187617A00563751 /* ViewController2.swift */; };
 		6E4F1A622187592F009E3338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F1A612187592F009E3338 /* AppDelegate.swift */; };
 		6E4F1A642187592F009E3338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F1A632187592F009E3338 /* ViewController.swift */; };
 		6E4F1A672187592F009E3338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F1A652187592F009E3338 /* Main.storyboard */; };
 		6E4F1A6921875930009E3338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F1A6821875930009E3338 /* Assets.xcassets */; };
 		6E4F1A6C21875930009E3338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4F1A6A21875930009E3338 /* LaunchScreen.storyboard */; };
-		E34E64806ECA4E770EB92138 /* Pods_PsychFairApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE64D218DBE0136D7A9D3F3D /* Pods_PsychFairApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		23D6CE075BA0EC8D5EB19971 /* Pods_PsychFairApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PsychFairApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
->>>>>>> parent of 963c809... Merge remote-tracking branch 'origin/master'
 		6E07E06B218B57EC00F4A23B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		6E277AA221949D4A005E813E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6E33CF6B2187617A00563751 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		6E4F1A5E2187592F009E3338 /* PsychFairApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsychFairApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4F1A612187592F009E3338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +32,6 @@
 		6E4F1A6D21875930009E3338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F6F29B1069A1BF5E9226314 /* Pods-PsychFairApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsychFairApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PsychFairApp/Pods-PsychFairApp.release.xcconfig"; sourceTree = "<group>"; };
 		B6047F7BE4E4F3B984909E25 /* Pods-PsychFairApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PsychFairApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PsychFairApp/Pods-PsychFairApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DE64D218DBE0136D7A9D3F3D /* Pods_PsychFairApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PsychFairApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,11 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				3F91DCDA79CA03B74E59EC47 /* Pods_PsychFairApp.framework in Frameworks */,
-=======
-				E34E64806ECA4E770EB92138 /* Pods_PsychFairApp.framework in Frameworks */,
->>>>>>> parent of 963c809... Merge remote-tracking branch 'origin/master'
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,11 +49,7 @@
 		34C89603D9514D51E3F35AF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				23D6CE075BA0EC8D5EB19971 /* Pods_PsychFairApp.framework */,
-=======
-				DE64D218DBE0136D7A9D3F3D /* Pods_PsychFairApp.framework */,
->>>>>>> parent of 963c809... Merge remote-tracking branch 'origin/master'
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,6 +83,7 @@
 				6E4F1A6821875930009E3338 /* Assets.xcassets */,
 				6E4F1A6A21875930009E3338 /* LaunchScreen.storyboard */,
 				6E4F1A6D21875930009E3338 /* Info.plist */,
+				6E277AA221949D4A005E813E /* GoogleService-Info.plist */,
 			);
 			path = PsychFairApp;
 			sourceTree = "<group>";
@@ -171,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4F1A6C21875930009E3338 /* LaunchScreen.storyboard in Resources */,
+				6E277AA321949D4B005E813E /* GoogleService-Info.plist in Resources */,
 				6E4F1A6921875930009E3338 /* Assets.xcassets in Resources */,
 				6E4F1A672187592F009E3338 /* Main.storyboard in Resources */,
 			);
@@ -184,15 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-PsychFairApp-checkManifestLockResult.txt",
 			);
@@ -206,8 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PsychFairApp/Pods-PsychFairApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
@@ -215,8 +197,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
