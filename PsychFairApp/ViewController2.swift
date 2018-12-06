@@ -1,6 +1,10 @@
 import UIKit
+import FirebaseDatabase
+import Firebase
 
 class ViewController2: UIViewController {
+    
+    var ref: DatabaseReference!
     
     @IBOutlet weak var questionLabel1: UILabel!
     @IBOutlet weak var answerTextField1: UITextField!
@@ -9,9 +13,7 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-
+        ref = Database.database().reference()
     }
     
     @IBAction func submitButton(_ sender: UIButton) {
@@ -28,8 +30,11 @@ class ViewController2: UIViewController {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         alert.addAction(okayAction)
         alert.addAction(cancelAction)
-        present(alert, animated: true, completion: nil)
+        alert.addTextField { (textField : UITextField!) -> Void in
+            textField.placeholder = "Enter Code"
+        self.present(alert, animated: true, completion: nil)
         
     }
     
+}
 }

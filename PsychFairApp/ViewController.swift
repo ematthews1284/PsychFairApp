@@ -7,17 +7,19 @@
 //
 
 import UIKit
-
+import FirebaseDatabase
+import Firebase
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var groups: [String] = ["I need a place holder so yea here"]
     
+    var ref: DatabaseReference!
     let apiKey = "AIzaSyBuO2Z6d5C7B05MDnr-kpDfk-nbaG3m3qk"
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        ref = Database.database().reference()
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return groups.count
@@ -34,10 +36,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //    {
 //        for result in json["groups"].arrayValue
 //        {
-//            let url = result[""].stringValue
-//            let name = result[""].stringValue
-//            let description = result[""].stringValue
-//            let source = ["":description, "":name, "":url]
+//            let Question1 = result[""].stringValue
+//            let Answer1 = result[""].stringValue
+//            let Question2 = result[""].stringValue
+//            let Answer2 = ["":Question1, "":Answer1, "":url]
 //            groups.append(source)
 //        }
 //        tableView.reloadData()
