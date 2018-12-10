@@ -11,7 +11,7 @@ import FirebaseDatabase
 import Firebase
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    var groups: [String] = ["I need a place holder so yea here"]
+    var groups: [String] = ["Example Station"]
     
     var ref: DatabaseReference!
     let apiKey = "AIzaSyBuO2Z6d5C7B05MDnr-kpDfk-nbaG3m3qk"
