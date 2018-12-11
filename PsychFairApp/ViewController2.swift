@@ -20,6 +20,7 @@ class ViewController2: UIViewController {
         //answers go to Firebase
         let answer1 = answerTextField1.text
         let answer2 = answerTextField2.text
+        print(answer1)
         alert()
     }
     
@@ -37,4 +38,11 @@ class ViewController2: UIViewController {
     }
     
 }
+    func prepare(for segue: UIStoryboardSegue, with identifier: String,  sender: Any?) {
+        
+        let answers1 = answerTextField1.text
+        let nvc = segue.destination as! ViewController
+        nvc.answer1 = answers1!
+        
+    }
 }

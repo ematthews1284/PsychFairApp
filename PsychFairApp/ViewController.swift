@@ -13,6 +13,8 @@ import Firebase
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var groups: [String] = ["Station Name"]
     
+    
+    var answer1 = ""
     var ref: DatabaseReference!
     let apiKey = "AIzaSyBuO2Z6d5C7B05MDnr-kpDfk-nbaG3m3qk"
     @IBOutlet weak var tableView: UITableView!
@@ -28,7 +30,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = groups[indexPath.row]
-        //cell.detailTextLabel?.text =
+        cell.detailTextLabel?.text = answer1
         return cell
     }
     
