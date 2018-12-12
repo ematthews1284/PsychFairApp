@@ -12,6 +12,17 @@ import Firebase
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var groups: [String] = ["Station Name"]
+    let defaults = UserDefaults.standard
+    var answer = String()
+    var answers = [String]()
+
+    {
+        didSet
+        {
+            defaults.set(answers, forKey: answer)
+        }
+    }
+
     
     
     var answer1 = ""
@@ -22,6 +33,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference()
+        if let savedData = defaults.object(forKey: answer) as? [String]
+        {
+            groups = savedData
+        }
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return groups.count
